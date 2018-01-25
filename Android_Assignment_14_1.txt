@@ -1,0 +1,33 @@
+a) What is the difference between Internal Storage & External Storage?
+
+    Internal Storage: 
+             * Internal storage can mean several different things, but most often refers to a computer's internal hard drive.
+             * This is the primary storage device used to store a user's files and applications. 
+             * Internal storage is inside the system Memory, is used to store the operation system, system apps, and other app data.
+             * Another popular type of internal storage is flash memory.
+             *  Flash memory is the most common type of internal storage used by portable electronic devices, such as mobile phones and portable music players. 
+    External Storage:
+             * External  storage is also known as secondary memory and is removable storage.
+             * External storage is not part of a computer's main memory or storage, hence it is called secondary or auxiliary storage.
+             * It can be used as a backup, to store achieved information or to transport data.
+             * External storage can be used to save media files such as pictures, music, videos while most applications can not be installed on external storage.
+             * External storage devices are commonly available in the form of flash drives, USB drives, CDs and DVDs.
+
+b) For how long the data resides in the cache?
+     
+            We can browse the internet through a web browser in android device or computer.Web browser stored a cache on our computer hard drive or phone storage.
+            Cache is a collection of web pages including the text, images, and media.This stored cache data helps in improving the user experience. With the help of cached data,
+            our web browser opens web page quickly on your next visit to the particuler web page.The cached data can consume the memory of our available storage on the device.
+            The files will remain in the chache until the user whats to refresh or delete the cache data for free space.
+
+c) What are the critical Permissions and Normal Permissions? What are the examples of each?
+
+Normal Permission : Normal permissions cover areas where your app needs to access data or resources outside the app's sandbox, but where there's very little risk to the user's privacy or the operation of other apps. 
+	                 For example, permission to set the time zone is a normal permission. 
+	                  If an app declares that it needs a normal permission, the system automatically grants the permission to the app. 
+Example for Normal Permission are : Access_Location_Extra_Commands,Access_Network_State,Access_Notification_Policy,Access_Wifi_State,Bluetooth.
+
+Dangerous Permission : Dangerous permissions cover areas where the app wants data or resources that involve the user's private information, or could potentially affect the user's stored data or the operation of other apps.
+	                      For example, the ability to read the user's contacts is a dangerous permission. 
+	                      If an app declares that it needs a dangerous permission, the user has to explicitly grant the permission to the app.
+Example for Dangerous Permission are : Read_Calendar,Write_Calendar,Camera,Read_Contacts.
